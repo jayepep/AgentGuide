@@ -813,7 +813,7 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 - [ ] [AutoGen/CrewAI 多智能体框架详解](./docs/02-tech-stack/06-multi-agent-frameworks.md)
 - [ ] [框架选型对比：何时用 LangChain vs LlamaIndex](./docs/02-tech-stack/07-framework-comparison.md)
 
-#### 2.3 向量数据库 - Agent 的记忆
+#### 2.3 向量数据库与上下文 - Agent 的记忆
 - [ ] [必看👍 向量数据库基础：Embedding 与向量检索](./docs/02-tech-stack/08-vector-db-basics.md)
 - [ ] [主流向量数据库对比与实战](./docs/02-tech-stack/09-vector-db-comparison.md)
 - [ ] [RAG 检索策略详解：从基础到 HyDE、Rerank、Query Expansion](./docs/02-tech-stack/10-rag-strategies.md)
@@ -840,7 +840,32 @@ AgentGuide 提供 **n 个简历级实战项目**，每个项目都提供：
 #### 2.6 模型微调 (Fine-tuning) - 算法岗必备 ⭐
 - [x] [必看👍 SFT 监督微调完全指南：从原理到实战](./docs/02-tech-stack/16-sft-finetuning.md)
 
-#### 2.7 失败经验与避坑指南 ⭐
+#### 2.7 强化学习 (Reinforcement Learning) - Agent 算法岗核心 ⭐⭐⭐
+- [ ] [必看👍 Agent 强化学习完全指南](./docs/02-tech-stack/21-agent-reinforcement-learning.md)
+  - 强化学习基础（MDP、Q-Learning、Policy Gradient）
+  - RLHF（Reinforcement Learning from Human Feedback）完整流程
+  - PPO（Proximal Policy Optimization）原理与实现
+  - DPO（Direct Preference Optimization）- 无需 RL 的对齐方法
+  - GRPO（Group Relative Policy Optimization）- DeepSeek 最新方法
+  - Agent RL 应用（工具调用优化、规划策略学习、Multi-Agent 协作）
+  - 实战案例（LangChain + PPO 优化 Agent 决策）
+#### 2.8 合成数据 (Synthetic Data) - Agent 训练与评估的关键 ⭐
+- [ ] [必看👍 合成数据生成完全指南](./docs/02-tech-stack/19-synthetic-data.md)
+  - 什么是合成数据？为什么重要？
+  - 合成数据生成方法（LLM生成、规则生成、数据增强）
+  - 合成数据质量评估
+  - Agent/RAG 系统的合成数据实战
+
+#### 2.9 RAG 全流程 (End-to-End RAG Pipeline) - 开发岗必备 ⭐
+- [ ] [必看👍 RAG 系统完整开发指南](./docs/02-tech-stack/20-rag-full-pipeline.md)
+  - RAG 系统架构设计（文档处理 → 向量化 → 检索 → 生成）
+  - 文档解析与预处理（PDF、Word、PPT、HTML、Markdown）
+  - Embedding 与向量数据库选型
+  - 检索策略优化（混合检索、重排序、Query改写）
+  - 生成质量优化（Prompt 工程、上下文注入）
+  - 评估体系（RAGAS、人工评估）
+  - 生产部署（缓存、监控、成本优化）
+#### 2.10 失败经验与避坑指南 ⭐
 - [x] [真实项目的坑与教训](./docs/02-tech-stack/lessons-learned.md)
 
 ---
